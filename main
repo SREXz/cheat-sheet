@@ -23,7 +23,7 @@ lang="en">         | shows the browser what language the WebPage is
 charset="UTF-8">   | character set used on the WebPage. //no clue what that is lol
 <a>                | it is an anker for URLs or documents in the same Website folder
 <div>              | Universal container
-<article>
-<header>
-<footer>
-<aside>
+<article>          | Container for the Main content
+<header>           | container for nav, Headlines, other header content
+<footer>           | container for copyright, Terms of service, Imprint and more
+<aside>            | container for side bar content or side information for the main content

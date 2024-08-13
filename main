@@ -1,15 +1,14 @@
-<html> </html>     | This is the container for the whole WebPage
-<head> </head>     | This container is used to store Title, Logos, Navigation Bars, metadata and more...
-<body> </body>     | Is the main body of the Webpage and contains most code
-<h1> </h1>         | The H's are all Headers all having a different order number and size
-<p>  </p>          | It's a paragraph
-<ol> </ol>         | Ordered List
-<li> </li>         | Listings
-<ul> </ul>         | Unordered List
+<html>        s     | This is the container for the whole WebPage
+<head>             | This container is used to store Title, Logos, Navigation Bars, metadata and more...
+<body>             | Is the main body of the Webpage and contains most code
+<h1>               | The H's are all Headers all having a different order number and size
+<p>                | It's a paragraph
+<ol>               | Ordered List
+<li>               | Listings
+<ul>               | Unordered List
 <meta>             | Metadata. Metadata is “data about data.” It provides information about particular piece of data for better understanding of the Data. 
 <!-- -->           | This is a comment
-<strong>        
-</strong>          | makes text bold
+<strong>           | makes text bold
 <em> </em>         | makes text italic
 <img 
 src="img.jpg"/>    | container for images and attribute directing img to container
@@ -22,4 +21,9 @@ height="200"/>     | manual setting of img dimensions
 lang="en">         | shows the browser what language the WebPage is
 <meta 
 charset="UTF-8">   | character set used on the WebPage. //no clue what that is lol
-<a></a>            | it is an anker for URLs or documents in the same Website folder
+<a>                | it is an anker for URLs or documents in the same Website folder
+<div>              | Universal container
+<article>
+<header>
+<footer>
+<aside>

@@ -6,8 +6,10 @@ most-used {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  text-shadow: black;
   line-height: 1.5;
   list-style: none;
+  letter-spacing: 2;
   color: blue;
   background-color: beige;
   border: 5px solid blue;
@@ -45,3 +47,18 @@ if i do this -> footer p {} then it will apply to only the p in the footer
 .class {
   class can be applied to multiple elements
 }
+
+Conflict Priority {
+
+1. !important
+2. Inline style
+3. ID
+4. Class
+5. * (Universal selector)
+
+}
+
+universal selector doesnt work with inherance, it applies the values to everything 
+
+Not all properties get inherited. It's mostly ones related to text: font-family, font-size, font-weight, 
+font-style, color, line-height, letter-spacing, text-align, text-transform, text-shadow, list-style, etc.

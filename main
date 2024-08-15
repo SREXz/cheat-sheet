@@ -27,3 +27,5 @@ charset="UTF-8">   | character set used on the WebPage. //no clue what that is l
 <header>           | container for nav, Headlines, other header content
 <footer>           | container for copyright, Terms of service, Imprint and more
 <aside>            | container for side bar content or side information for the main content
+<link href=""      | linking to other files, example css
+rel="">

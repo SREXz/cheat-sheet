@@ -17,6 +17,14 @@ most-used {
   padding: 0px/auto;
   width: 900px/100%;
   height: auto;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  content: "TOP";
 }
 
 selector:first-child {
@@ -24,6 +32,19 @@ selector:first-child {
 }
 selector:nth-child(5) {
   nth number/ even or odd too
+}
+
+selector::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  color: red;
+}
+
+selector::after {
+  content: "";
 }
 
 a:active {  

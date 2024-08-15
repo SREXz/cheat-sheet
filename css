@@ -62,3 +62,19 @@ universal selector doesnt work with inherance, it applies the values to everythi
 
 Not all properties get inherited. It's mostly ones related to text: font-family, font-size, font-weight, 
 font-style, color, line-height, letter-spacing, text-align, text-transform, text-shadow, list-style, etc.
+
+---------------------------------------------------------- 
+|                Margin                                  |
+|      ___________________________________________       |
+|     |                     Padding               |      |
+|     |     <-----------width--------------> ^    |      |
+|     |     ################################ |    |      |
+|     |     ###############Content########## |    |      |
+|     |     ################################ ^    |      |
+|     |                                   height  |      |
+|     |___________________________________________|      |
+|                                       Border ^         |
+|                                                        |
+----------------------------------------------------------
+
+

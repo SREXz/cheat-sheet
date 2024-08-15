@@ -80,4 +80,18 @@ font-style, color, line-height, letter-spacing, text-align, text-transform, text
 |                                                        |
 ----------------------------------------------------------
 
+Inline boxes only occupy the space they need
+Block Level Boxes occupy all the space they can and create line brakes after them
+
+Block-Level:
+Visuallized as blocks
+Occupy 100% of parent elemnt's width
+stacked vertically
+CSS: display: block;
+
+Inline:
+occupies only the space necessary
+causes no line-breaks
+heights and widths do not apply
+Paddings and margins are applied only horizontally
 

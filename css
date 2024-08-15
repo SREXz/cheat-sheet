@@ -13,7 +13,10 @@ most-used {
   color: blue;
   background-color: beige;
   border: 5px solid blue;
-  
+  margin: 0px/auto;
+  padding: 0px/auto;
+  width: 900px/100%;
+  height: auto;
 }
 
 selector:first-child {

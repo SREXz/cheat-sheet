@@ -1,0 +1,12 @@
+most-used {
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  
+}
+
+if i use multiple selectors (p,h1,footer), then they will all get the same changes in the brackets
+if i do this -> footer p then it will apply to only the p in the footer

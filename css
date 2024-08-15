@@ -1,12 +1,47 @@
 most-used {
   font-size: 26px;
   font-family: sans-serif;
-  text-transform: uppercase;
   font-style: italic;
-  line-height: 1.5;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
   text-align: center;
+  line-height: 1.5;
+  list-style: none;
+  color: blue;
+  background-color: beige;
+  border: 5px solid blue;
   
 }
 
+selector:first-child {
+  first child element of the parent will be changed
+}
+selector:nth-child(5) {
+  nth number/ even or odd too
+}
+
+a:active {  
+  in effect while pressing the link
+}
+a:hover {
+ applies when you hover over the anker
+}
+a:link {
+  only targets actually linked ankers  
+}
+a:visited {
+  targets ankers that got used 
+}
+
+
+
 if i use multiple selectors (p,h1,footer), then they will all get the same changes in the brackets
-if i do this -> footer p then it will apply to only the p in the footer
+if i do this -> footer p {} then it will apply to only the p in the footer
+
+#ID {
+  id can only be used once
+}
+.class {
+  class can be applied to multiple elements
+}

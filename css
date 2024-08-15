@@ -82,6 +82,7 @@ font-style, color, line-height, letter-spacing, text-align, text-transform, text
 
 Inline boxes only occupy the space they need
 Block Level Boxes occupy all the space they can and create line brakes after them
+Inline-Block-Boxes are a mix of the other two
 
 Block-Level:
 Visuallized as blocks
@@ -94,4 +95,25 @@ occupies only the space necessary
 causes no line-breaks
 heights and widths do not apply
 Paddings and margins are applied only horizontally
+CSS: display: inline;
 
+Inline-Block:
+Occupies only content's space
+Causes no line breaks
+Box-model applies as showed
+CSS: display: inline-block;
+
+Normal Flow:
+Default positioning
+Element is "in flow"
+Elements are simply laid out according to their order in the HTML code
+
+Default positioning
+position: relative;
+
+Absolute Positioning
+Element is removed from the normal flow: "out of flow"
+No impact on surrounding elements, might overlap them
+We use top, bottom, left or right to offset the element from its reltively positioned container
+
+position: absolute 

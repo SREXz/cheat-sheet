@@ -39,5 +39,9 @@ by default all items try to fit in one line and start to crush each other
   display: flex;
   flex-wrap: wrap;
 }
-
 with flex-wrap we can make it so that the items dont start crushing each other and go to the next lie if there is no space left
+
+align-content is unlocked with flex-wrap: wrap;
+.container {
+  same as justify-content
+}

@@ -1,0 +1,35 @@
+We need a .container with children 
+
+Box with 3 smaller boxes in it, they are now on the left side wall from top to bottom arranged 
+(flex-direction: column;)
+
+.container {
+  display: flex;
+}
+
+Now those 3 boxes are on the top and go from left to right
+Set on default
+(flex-direction: row;)
+
+Justify-content is for aligning items on the main-axis
+.container {
+  display: flex;
+  (defalt)justify-content: flex-start; pushed to the start of the line
+  justify-content: flex-end; pushed to the end of the line
+  justify-content: center; centers them
+  justify-content: space-between; evenly distribute the items 
+  justify-content: space-around; same as space-between but with space between the children and the container too
+  justify-content: space-evenly; same as the above but evenly distributes the left up space betweem everything
+}
+
+align-items is for aligning items on the cross-axis
+.container {
+  display: flex;
+  (defalt)align-items: flex-start; pushed to the start of the line
+  align-items: flex-end; pushed to the end of the line
+  align-items: center; centers them
+  align-items: baseline; makes it so that the baseline text of each item is aligned
+  align-items: space-between; evenly distribute the items 
+  align-items: space-around; same as space-between but with space between the children and the container too
+  align-items: space-evenly; same as the above but evenly distributes the left up space betweem everything
+}

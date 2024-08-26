@@ -33,3 +33,11 @@ align-items is for aligning items on the cross-axis
   align-items: space-around; same as space-between but with space between the children and the container too
   align-items: space-evenly; same as the above but evenly distributes the left up space betweem everything
 }
+
+by default all items try to fit in one line and start to crush each other
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+with flex-wrap we can make it so that the items dont start crushing each other and go to the next lie if there is no space left
